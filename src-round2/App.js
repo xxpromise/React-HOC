@@ -7,8 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/*父组件向子组件传递属性*/}
-        <Login name="jack" age={18}/>
+        <Login />
         <Register />
       </div>
     );
